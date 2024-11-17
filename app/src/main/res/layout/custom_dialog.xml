@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_dialog"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/Imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/image"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/dialogTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Enter Your Name:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/dialogInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Name"
+        android:paddingStart="10dp"
+        />
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        />
+
+</LinearLayout>
